@@ -21,6 +21,7 @@ function musicmix(list) {
     li.innerHTML = `${i + 1} :${list[i]} `;
     hide.append(li);
     total.innerText = `${list.length} great songs`;
+    show.style.visibility = "hidden";
   }
 }
 
